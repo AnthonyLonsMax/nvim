@@ -17,6 +17,7 @@ vim.lsp.enable({
 	"intelephense",
   'csharp_ls',
   'clangd',
+  'neocmake',
 })
 
 vim.diagnostic.config({
