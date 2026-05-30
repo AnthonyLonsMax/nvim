@@ -56,3 +56,5 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz", opts)
 -- Find and center
 vim.keymap.set("n", "n", "nzzzv", opts)
 vim.keymap.set("n", "N", "Nzzzv", opts)
+vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {buffer = true, desc = "Code action"})
+
